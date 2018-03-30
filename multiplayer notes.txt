@@ -1,0 +1,43 @@
+Black Market card menu clickable cards need to be canZoom.
+
+Need an error message for when the image file folder is missing.
+
+Black Market Deck shouldn't have any cards that are already in the game.
+
+Players should be able to see both their hand and what the current player is doing.
+
+Reaction cards should have a time limit on the chance to react.
+
+Client will use clickable cards to display things that are normally just drawn in offline mode.
+
+Remodel might not work right
+
+Durations gained by dancing monkeys don't get trashed
+
+River ferry gained by black market or monkeys doesn't work because there are no fish.
+
+Hide hand when making a non hand selection on opponent's turn.
+
+Prototype doesn't work on opponent's turn
+
+Make a way for any player to view cards in a set (discard, native village, trash) without making other players wait.
+
+Commands
+
+From Host:
+C: makes a clickable card
+refresh: start of a list of clickable cards
+Q: gives the client a question (choice from a card effect)
+guirefresh: clears the gui buttons when they need to be changed
+G: information on what gui buttons should be displayed
+I: inform (sets the message)
+yourturn: informs the player it is their turn
+turn: sets the turn player number
+
+
+From Client:
+X: clicked on a clickable card
+B: clicked on a button
+
+From Both:
+T: chat

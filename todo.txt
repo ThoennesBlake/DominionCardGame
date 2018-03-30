@@ -1,0 +1,31 @@
+To do
+
+Properly return to main menu
+
+Add features to card selection
+
+Client needs to see scores
+
+initiateOnlineGame needs to wait for a response from the clients instead of just waiting 1/4 seconds
+
+convert Player.class to lower case function names
+
+better way to inform player of things that happened
+
+For making clickable button and view card set
+
+List Duration Cards
+Viewing card set variable in DominionGUI disables other clicks.
+Close button on viewing card sets.
+Message from host to client to create a button including the list of cards.
+Auto close when your turn starts?
+Give zoom option to clickable images.
+
+DrawCounters in the clickableCard's draw method
+
+
+Make new Game Over Screen
+Game should end when provence pile runs out.
+Client needs a game end screen
+Option for host to replay (selecting new cards) or return to menu.
+Client and Host should be able to return to the main menu.
